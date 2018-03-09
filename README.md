@@ -12,11 +12,11 @@ This package provides an integration between React and [`Tracker`](https://atmos
 To install the package, use `npm install` or `yarn add`:
 
 ```bash
-npm install --save react-meteor-data
+npm install --save react-meteor-data-with-tracker
 ```
 or
 ```bash
-yarn add react-meteor-data
+yarn add react-meteor-data-with-tracker
 ```
 
 
@@ -33,12 +33,12 @@ yarn add --save react
 ### Usage
 
 > **Important note (unofficial version):**
-> With this unofficial package you will have to import "react-meteor-data" instead of "meteor/react-meteor-data".
+> With this unofficial package you will have to import "react-meteor-data-with-tracker" instead of "meteor/react-meteor-data".
 
 This package exports a symbol `withTracker`, which you can use to wrap your components with data returned from Tracker reactive functions.
 
 ```js
-import { withTracker } from 'react-meteor-data';
+import { withTracker } from 'react-meteor-data-with-tracker';
 
 // React component
 function Foo({ currentUser, listLoading, tasks }) {

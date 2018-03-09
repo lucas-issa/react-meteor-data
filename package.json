@@ -1,11 +1,11 @@
 {
-  "name": "react-meteor-data",
-  "version": "0.2.11",
+  "name": "react-meteor-data-with-tracker",
+  "version": "0.1.1",
   "description": "Meteor packages for a great React developer experience",
   "main": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && babel src/ --out-dir lib",
-    "prepublish": "npm run build"
+    "prepublish": "yarn run build"
   },
   "repository": {
     "type": "git",
